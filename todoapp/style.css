@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 4px rgb(189, 137, 78);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(3deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%), url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.648);
+    padding: 30px;
+    min-height: 80%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+.input-container input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+i{
+    cursor: pointer;
+}
+i:hover{
+    color: rgb(68, 195, 0);
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#task-list li{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: left;
+    display: flex; 
+    justify-content: space-between;
+    list-style-position: inside;
+    padding: 5px 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#task-list{
+    padding: 0px;
+}
+
+.task-container{
+    padding-top: 50px;
+}
+
+
+/* login */
+.formLogin{
+    color: #fff;
+}
+.loginBox{
+    width: 90%;
+    margin: auto;
+}
