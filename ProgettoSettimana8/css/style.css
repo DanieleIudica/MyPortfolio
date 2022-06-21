@@ -62,16 +62,17 @@ button:hover {
 .modal {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.777);
-  padding: 20px 250px;
+  padding: 3em 6em;
   font-size: 1.5em;
 }
 
 .modalBtn {
-  width: 150px;
+  width: 6em;
   font-size: 1.5em;
   background-color: #fff;
   border-width: 3px;
@@ -79,4 +80,14 @@ button:hover {
 
 .hide {
   display: none;
+}
+
+@media (max-width: 480px) {
+  .modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.6em;
+  }
 }

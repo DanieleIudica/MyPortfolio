@@ -3491,6 +3491,7 @@ body.landing #header {
   background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
   background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
   background-image: url(images/hero.jpg);
+  background-position: center;
   content: "";
   display: block;
   height: 100%;
@@ -3754,6 +3755,7 @@ body.is-touch #banner {
 
   h3 {
     font-size: 1.2em;
+    margin-bottom: 2em;
   }
 
   h4 {
