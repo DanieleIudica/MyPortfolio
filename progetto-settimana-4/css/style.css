@@ -3,6 +3,7 @@
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 section {
   background-image: url(../img/bg-calc.jpg);
@@ -139,4 +140,10 @@ a:hover {
 .cubo {
   position: absolute;
   top: 2em;
+}
+
+@media (max-width: 480px) {
+  .bodyScrivania {
+    background-image: url(../img/bg_vert.jpg);
+  }
 }
