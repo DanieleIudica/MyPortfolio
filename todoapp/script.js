@@ -5,7 +5,7 @@ const taskList = document.querySelector("#task-list");
 //
 document.addEventListener("DOMContentLoaded", function () {
   // if (document.location.pathname === "/index.html") {
-  if (document.location.pathname === "/danieleiudica.github.io/MyPortfolio/todoapp//index.html") {
+  if (document.location.pathname === "danieleiudica.github.io/MyPortfolio/todoapp//index.html") {
     let jsonTask = localStorage.getItem("localTask");
     console.log(jsonTask);
     if (jsonTask !== null) {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     inputButton.addEventListener("click", aggiungiTask);
     taskList.addEventListener("click", rimuoviTask);
     logout.addEventListener("click", slogga);
-  } else if (document.location.pathname === "/danieleiudica.github.io/MyPortfolio/todoapp/login.html") {
+  } else if (document.location.pathname === "danieleiudica.github.io/MyPortfolio/todoapp/login.html") {
     // } else if (document.location.pathname === "/login.html") {
     login.addEventListener("click", check);
   }
