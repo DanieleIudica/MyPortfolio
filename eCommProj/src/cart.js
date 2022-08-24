@@ -142,7 +142,9 @@ let totalAmount = () => {
       .reduce((x, y) => x + y, 0);
     // console.log(amount);
     label.innerHTML = `<h2>Total bill: ${amount} €</h2>
-        <button class="checkOut">Checkout</button>
+        <button class="checkOut">
+          <a class="green"href="https://danieleiudica.github.io/MyPortfolio/progetto-settimana-4">Checkout</a>
+        </button>
         <button onclick='showModal()' class="clearCart">Clear Cart</button>
         `;
   } else return;
