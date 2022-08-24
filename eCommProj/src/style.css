@@ -153,7 +153,7 @@ button {
   margin-top: 10px;
 }
 
-.buttons {
+.cartBtns {
   margin: 20px auto;
 }
 
@@ -169,6 +169,12 @@ button {
   width: 300px;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 530px) {
+  .title-price-x {
+    width: 200px;
+  }
 }
 
 .bi-trash3-fill {
