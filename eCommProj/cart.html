@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--? Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!--? link a mio CSS -->
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html"><h2>TechCommerce</h2></a>
+      <div class="cart">
+        <i class="bi bi-cart"></i>
+        <div class="cartAmount">0</div>
+      </div>
+    </div>
+
+    <div class="label text-center"></div>
+
+    <div class="shopping-cart"></div>
+
+    <div class="modal">
+      <div class="modalDes">Are you sure you want to empty your shopping cart?</div>
+      <div class="modalBtns">
+        <button onclick="clearCart()" class="yes">Yes</button>
+        <button onclick="hideModal()" class="No">No</button>
+      </div>
+    </div>
+  </body>
+  <!--? collegamenti js -->
+  <script src="src/data.js"></script>
+  <script src="src/cart.js"></script>
+</html>
