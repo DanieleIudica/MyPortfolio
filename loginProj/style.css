@@ -58,30 +58,16 @@
 }
 
 .success {
-  box-shadow: 0 0 5px 1px rgb(51, 253, 0);
+  box-shadow: 0 0 5px 2px rgb(51, 253, 0);
 }
 
 .error {
-  box-shadow: 0 0 5px 1px rgb(249, 46, 46);
+  box-shadow: 0 0 5px 2px rgb(249, 46, 46);
 }
 
-.input-group .msg {
-  /* display: none; */
-  font-size: 0.8rem;
-  font-weight: lighter;
-}
-
-/* .input-group.success .msg,
-.input-group.error .msg {
-  display: block;
-} */
-
-.input-group.success .msg {
-  color: rgb(96, 255, 57);
-}
-
-.input-group.error .msg {
-  color: rgb(249, 46, 46);
+.emailMsg,
+.pwMsg {
+  color: rgb(255, 113, 113);
 }
 
 .login-btn {
