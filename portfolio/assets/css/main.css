@@ -2940,6 +2940,10 @@ input[type="button"]:disabled,
   opacity: 0.25;
 }
 
+.cvBtn {
+  margin: 50px !important;
+}
+
 /* Goto Next */
 
 .goto-next {
@@ -3491,7 +3495,7 @@ body.landing #header {
   background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
   background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");
   background-image: url(images/hero.jpg);
-  filter: blur(3px);
+  filter: blur(2px);
   background-position: center;
   content: "";
   display: block;
