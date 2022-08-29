@@ -2942,6 +2942,13 @@ input[type="button"]:disabled,
 
 .cvBtn {
   margin: 50px !important;
+  padding: 0 30px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .cvBtn {
+    margin-top: 0 !important;
+  }
 }
 
 /* Goto Next */
